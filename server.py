@@ -23,7 +23,7 @@ def divide(a: float, b:float) -> float:
     Divide two numbers.
     """
     if b==0: 
-        raise ValueError("Cannot Divide by zero.")
+        raise ValueError("Cannot divide by zero")
     return a/b
 
 @mcp.tool 
@@ -46,7 +46,7 @@ def square_root(a: float) -> float:
         Calculate the square root of a number.
     """
     if a < 0: 
-        raise ValueError("Cannot calculate the square root of negative numbers.")
+        raise ValueError("Cannot calculate the square root of negative numbers")
     return math.sqrt(a)
 
 @mcp.tool
@@ -55,7 +55,7 @@ def factorial(a: int) -> int:
         Calculate the factorial of a non-negative number.
     """
     if a < 0: 
-        raise ValueError("Cannot calculate the factorial of a negative integer.")
+        raise ValueError("Cannot calculate the factorial of a negative integer")
     return math.factorial(a)
 
 @mcp.tool
@@ -91,7 +91,7 @@ def modulus(a: float, b: float) -> float:
     Calculate the modulus.
     """
     if b == 0:
-        raise ValueError("Cannot calculate modulus with zero.")
+        raise ValueError("Cannot calculate modulus with zero")
     return a%b 
 
 if __name__ == "__main__":
