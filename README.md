@@ -8,7 +8,7 @@
 A **Model Context Protocol (MCP)** server built with **Python** and **FastMCP** that exposes mathematical operations as AI tools. Compatible with MCP clients such as **Claude Desktop**, enabling AI assistants to perform reliable mathematical computations through external tool execution.
 
 ---
-## 📸 Demo
+## Project Demo
 
 ![Claude Desktop Integration Demo](assets/calculator_MCP.png)
 
